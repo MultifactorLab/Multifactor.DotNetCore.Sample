@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multfactor.DotNetCore.Sample", "Multfactor.DotNetCore.Sample\Multfactor.DotNetCore.Sample.csproj", "{73D1D17D-DE82-4486-BC0D-95A26C524425}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73D1D17D-DE82-4486-BC0D-95A26C524425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D1D17D-DE82-4486-BC0D-95A26C524425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D1D17D-DE82-4486-BC0D-95A26C524425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D1D17D-DE82-4486-BC0D-95A26C524425}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9EBE04E-CB90-4E94-84B6-7685EFAA8E4C}
+	EndGlobalSection
+EndGlobal
