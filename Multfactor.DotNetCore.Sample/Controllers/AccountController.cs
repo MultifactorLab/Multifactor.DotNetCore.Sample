@@ -56,7 +56,7 @@ namespace Multfactor.DotNetCore.Sample.Controllers
         [HttpPost("/account/mfa")]
         public IActionResult MultifactorCallback(string accessToken)
         {
-            //сохраняем токен доступа в куки и переводим пользователя в авторизованную зону
+            //save access token to cookie and redirect user to authorized zone
             Response.Cookies.Append("jwt", accessToken);
             return LocalRedirect("/");
         }
