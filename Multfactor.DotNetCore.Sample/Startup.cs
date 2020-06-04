@@ -56,7 +56,8 @@ namespace Multfactor.DotNetCore.Sample
                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(apiSecret)), //signature validation key
                         ValidateIssuer = true,
                         ValidIssuer = "https://access.multifactor.ru", //only valid token issuer
-                        ValidateAudience = false,
+                        ValidateAudience = true,
+                        ValidAudience = apiKey,
                         NameClaimType = ClaimTypes.NameIdentifier //claim where take Authorized User Identity Name
                     };
                 });
